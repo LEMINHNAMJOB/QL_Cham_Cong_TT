@@ -30,7 +30,7 @@ namespace QL_Cham_Cong_TT
             const string fromPassword = "vzhoshhotwqitzqh";
             const string subject = "Xác nhận tài khoản";
             string body = "Xin chào,\n\nBạn đã đăng ký tài khoản thành công.+ "+" \nOTP của bạn là :  "+ otp.ToString() +"\n\nCảm ơn bạn đã sử dụng dịch vụ của chúng tôi.\n\nTrân trọng,\nYour Name";
-
+            //ối dồi ôis
             var smtp = new SmtpClient
             {
                 Host = "smtp.gmail.com",
